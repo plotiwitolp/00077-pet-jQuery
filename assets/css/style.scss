@@ -45,5 +45,62 @@ body {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: 'OpenSans-Medium', sans-serif;
+}
+main {
+  flex: 1 0 auto;
+}
+.container {
+  width: 720px;
+  margin: 0 auto;
+}
+.logo {
+  img {
+    display: block;
+    height: 100px;
+  }
+}
+.content {
+  padding: 10px 20px;
+}
+header .container {
+  display: flex;
+}
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+  li {
+    padding: 10px;
+    border: 1px solid red;
+  }
+}
+footer {
+  flex: 0 0 200px;
+  background-color: black;
+  color: #fff;
+  padding: 30px;
+}
+.content p {
+  padding: 10px;
+}
+.content > div {
+  border: 1px solid green;
+}
+body > main > div > div > div:nth-child(3) > p:nth-child(1) {
+  color: blue;
+}
+[class~='go'] {
+  border: 3px solid black;
+}
+img:not(.logo img) {
+  width: 200px;
+  border: 2px dashed blue;
+}
+body > *:not(header) {
+  border: 2px dotted green;
 }
