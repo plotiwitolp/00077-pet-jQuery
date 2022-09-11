@@ -43,7 +43,12 @@
                     <a href="./img-matrix-500px/4.png"><img src="./img-matrix-500px/4.png" alt=""></a>
                 </div>
             </div>
+            <textarea name="" id="" cols="30" rows="10" readonly>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non possimus nemo voluptates veniam suscipit expedita cupiditate doloremque nostrum! Rerum corrupti aut iste facere explicabo repudiandae odio nobis ducimus adipisci omnis.
+            </textarea>
+            <input type="text" readonly value="lorem ipsum">
         </div>
+
     </main>
     <footer>
         <div class="container">
