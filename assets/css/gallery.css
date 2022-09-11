@@ -1,0 +1,48 @@
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gallery {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.gallery .big img {
+  width: 700px;
+  height: 700px;
+}
+
+.container .gallery img {
+  border: none;
+  border-radius: 20px;
+}
+.container .small img {
+  width: 25%;
+  margin-right: -4px;
+  padding: 4px;
+  border-radius: 15px;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  font-size: 60px;
+  background-color: #eee;
+  margin: 20px auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+._active {
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}

@@ -39,6 +39,18 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.arrowDown, .onmouse, .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 /*----------------*/
 @font-face {
   font-family: "OpenSans-Medium";
@@ -136,4 +148,47 @@ img:not(.logo img) {
 
 body > *:not(header) {
   border: 2px dotted green;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  background-color: tomato;
+}
+
+.onmouse {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: tomato;
+  border-radius: 50%;
+}
+
+.border {
+  border: 2px solid red;
+  background-color: black;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.over {
+  border: 1px solid green;
+  background-color: black;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.over-a {
+  color: #fff;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.arrowDown {
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+  border-radius: 50%;
+  font-size: 30px;
 }
