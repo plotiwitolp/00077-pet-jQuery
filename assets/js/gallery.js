@@ -1,5 +1,4 @@
 $(function () {
-  //start
   $('.small a').click(function (e) {
     $('.small a img').removeClass('_active');
     if ($('.big img').attr('src') !== $(this).attr('href')) {
@@ -19,5 +18,4 @@ $(function () {
       $(this).text('-');
     }
   });
-  //end
 });
