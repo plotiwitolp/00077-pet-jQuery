@@ -55,7 +55,6 @@
             <?= date('Y'); ?> &copy; all right reserved, John Carpenter
         </div>
     </footer>
-    <!-- <div class="onmouse"></div> -->
 </body>
 
 <script src="./assets/js/jquery-3.6.0.min.js"></script>
